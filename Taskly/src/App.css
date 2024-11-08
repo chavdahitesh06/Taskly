@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  /* In App.css or a specific CSS file for your component */
+  background-image: url('./img/DALL·E\ 2024-11-07\ 12.14.37\ -\ A\ sleek\,\ minimalistic\ background\ image\ for\ a\ to-do\ list\ website\ called\ \'Daily\ Dash\ Taskly\'.\ The\ image\ should\ feature\ a\ soft\,\ calming\ gradient\,\ blendin.webp'); /* Adjust the path as needed */
+  background-size: cover; /* Covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 100vh; /* Sets full viewport height */
+  width: 100vw; /* Sets full viewport width */
+  overflow: auto; /* Allows scrolling if content exceeds screen */
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+
+
+
+}
+form input{
+  height: 54px;
+  flex-basis: 80%;
+  font-size: medium;
+
+}
+form button{
+  flex-basis: 20%;
+}
+
+.outer{
+  width: 1170px;
+ 
+  margin: auto;
+
+}
+.outer ul{
+  margin: 0px;
+  margin-top: 80px;
+  padding: 0px;
+  list-style: none;
+}
+.outer ul li{
+  color: rgb(10, 10, 10);
+  padding: 10px;
+  font-size: 35px;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: rgb(142, 170, 174);
+}
+.outer ul li samp{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.completetodo{
+  text-decoration: line-through;
+  color: rgb(15, 205, 28);
+  background-color:gray !important ;
+}
